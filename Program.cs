@@ -1,4 +1,5 @@
 using Microsoft.OpenApi.Models;
+using PizzaStore;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -17,5 +18,11 @@ app.UseSwaggerUI(c =>
 });
 
 app.MapGet("/", () => "Hello World!");
+
+app.MapGet("/pizzas/{id}", Db.GetPizza);
+app.MapGet("/pizzas", Db.GetPizzas);
+app.MapPost("/pizzas", Db.CreatePizza);
+app.MapPut("/pizzas", Db.UpdatePizza);
+app.MapDelete("/pizzas/{id}", Db.DeletePizza);
 
 app.Run();
