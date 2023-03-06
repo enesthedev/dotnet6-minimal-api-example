@@ -1,4 +1,4 @@
-<p align="right"><a href="https://github.com/enesthedev/dotnet-pizza-store-api-example/blob/master/README_TR.md" title="Bu sayfayı Türkçe olarak görüntüle" target="_blank"><img height="20" src="https://github.com/enesthedev/art/blob/master/see-at-turkish.ico"/></a></p>
+<p align="right"><a href="https://github.com/enesthedev/dotnet6-minimal-api-example/blob/master/README_TR.md" title="Bu sayfayı Türkçe olarak görüntüle" target="_blank"><img height="20" src="https://github.com/enesthedev/art/blob/master/see-at-turkish.ico"/></a></p>
 
 # .NET Pizza Store Minimal API Example
 This example is results of Microsoft Learn .NET 6 learn path modules.
